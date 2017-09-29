@@ -15,6 +15,7 @@
 <script src="js/jquery-migrate-1.2.1.js"></script>
 <script type="text/javascript">hsjQuery = window['jQuery']</script>
 <link href="css/public_common.css" rel="stylesheet">
+<link href="css/magnific-popup.css" rel="stylesheet">
 
 <meta property="og:description" content="The best EPOS system. Reliable cash register software. The UK's Leading Point of Sale solution. Download the Nobly iPad app from the App Store.">
 <meta property="og:title" content="The #1 Rated iPad EPOS solution in Hospitality - UK Point of Sale | Nobly POS">
@@ -212,7 +213,7 @@
 
               <h1 style="text-shadow: 0px 0px 7px #000000;" >El POS #1 de Argentina</h1>
                <h4 style="text-shadow: 0px 0px 9px #000000;" >Todo lo que necesitas. Aquí finaliza tu búsqueda.</h4>
-               <a href="//fast.wistia.net/embed/iframe/liwanw5kwe?popover=true" class="btn-big  hero-popup"><span class="arrow--white"></span>Mirá PaxaPos en acción</a>
+               <a class="btn-big hero-popup paxapos-accion"><span class="arrow--white"></span>Mirá PaxaPos en acción</a>
                
 
                <!-- IMAGENES de comercios que usan el sistema
@@ -651,3 +652,54 @@
 
         </body>
 </html>
+
+<script src="js/jquery.magnific-popup.js"></script>
+
+<script>
+// Example with single object
+$('.hardware-popup-one').magnificPopup({
+    items: [
+      {
+        src: 'img/carrete/tablet-carrete.png'
+      },
+      {
+        src: 'img/carrete/tablet-carrete2.png'
+      },
+      {
+        src: 'img/carrete/tablet-carrete3.png'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image'
+});
+
+// Example with multiple objects
+$('.hardware-popup-two').magnificPopup({
+    items: [
+      {
+        src: 'img/carrete/elox-carrete.png'
+      },
+      {
+        src: 'img/carrete/elox-carrete2.png'
+      },
+      {
+        src: 'img/carrete/elox-carrete3.png'
+      }
+    ],
+    gallery: {
+      enabled: true
+    },
+    type: 'image'
+});
+
+$('.paxapos-accion').magnificPopup({
+    items: [
+      {
+        src: "https://www.youtube.com/watch?v=32Tv5e65ziM"
+      }
+    ],
+    type: 'iframe'
+});
+</script>
